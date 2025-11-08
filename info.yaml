@@ -4,7 +4,7 @@ project:
   title:        "Flip the Flop"      # Project title
   author:       "Eric Dynowski"      # Your name
   discord:      "brokebit"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "128 Daisy Chained D Flip-Flops"      # One line description of what your project does
+  description:  "128 Daisy Chained D Flip Flops"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     10000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,7 +16,7 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "FlipFlop Input"
+  ui[0]: "FlipFlop_Input"
   ui[1]: "SW"
   ui[2]: "SW"
   ui[3]: "SW"
@@ -26,7 +26,7 @@ pinout:
   ui[7]: "Sw"
 
   # Outputs
-  uo[0]: "FlipFlop Output"
+  uo[0]: "FlipFlop_Output"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
